@@ -40,6 +40,42 @@ export class MovieListComponent implements OnInit {
         imageSrc:
           "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
         description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
+      },
+      {
+        title: "test",
+        imageSrc:
+          "https://s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg",
+        description: "test"
       }
     ];
   }

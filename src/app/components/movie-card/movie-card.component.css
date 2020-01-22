@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background: gray;
+  background-color: darkseagreen;
+  margin-top: 35px;
 }
 
 .card {
