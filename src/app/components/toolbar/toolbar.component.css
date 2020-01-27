@@ -14,3 +14,13 @@
   z-index: 1000;
   /* Ensure that your app's content doesn't overlap the toolbar */
 }
+
+.back-button {
+  display: flex;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1;
+}

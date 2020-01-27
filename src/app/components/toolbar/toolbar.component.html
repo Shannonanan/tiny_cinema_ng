@@ -1,1 +1,15 @@
-<mat-toolbar class="toolbar">Tiny Cinema</mat-toolbar>
+<mat-toolbar class="toolbar">
+  <!-- <div class="back-button">
+    <mat-icon (click)="onBackPressed()" aria-hidden="false" aria-label="Back">arrow_back</mat-icon>
+  </div> -->
+  <h1 class="title">Tiny Cinema</h1>
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="InTheatresClicked()">Movies In Theatres</button>
+    <button mat-menu-item>Popular Movies</button>
+    <button mat-menu-item>Search</button>
+    <button mat-menu-item>TV</button>
+  </mat-menu>
+</mat-toolbar>
